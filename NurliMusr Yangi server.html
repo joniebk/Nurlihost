@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://nurlihost.uz/yangi-server/ -->
+<html lang="uz" class="dark"><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/content/location/location.js" id="eppiocemhmnlbhjplcgkofciiegomcon"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/extend-native-history-api.js"></script><script src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/libs/requests.js"></script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Yangi server</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="./NurliMusr Yangi server_files/saved_resource"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            from: '#facc15',
+                            via: '#fb923c',
+                            to: '#f97316'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        * {
+            transition: background-color .25s ease,
+                        color .25s ease,
+                        border-color .25s ease;
+        }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.bottom-4{bottom:1rem}.bottom-8{bottom:2rem}.left-4{left:1rem}.left-6{left:1.5rem}.right-0{right:0px}.top-0{top:0px}.top-4{top:1rem}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-12{margin-bottom:3rem}.mb-2{margin-bottom:0.5rem}.mb-20{margin-bottom:5rem}.mb-4{margin-bottom:1rem}.mb-5{margin-bottom:1.25rem}.mb-8{margin-bottom:2rem}.mt-2{margin-top:0.5rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-10{height:2.5rem}.h-4{height:1rem}.min-h-screen{min-height:100vh}.w-10{width:2.5rem}.w-4{width:1rem}.w-56{width:14rem}.w-full{width:100%}.max-w-7xl{max-width:80rem}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-8{gap:2rem}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity, 1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-white\/80{background-color:rgb(255 255 255 / 0.8)}.bg-yellow-400{--tw-bg-opacity:1;background-color:rgb(250 204 21 / var(--tw-bg-opacity, 1))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.from-brand-from{--tw-gradient-from:#facc15 var(--tw-gradient-from-position);--tw-gradient-to:rgb(250 204 21 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-brand-via{--tw-gradient-to:rgb(251 146 60 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), #fb923c var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-brand-to{--tw-gradient-to:#f97316 var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.p-6{padding:1.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pb-4{padding-bottom:1rem}.text-left{text-align:left}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-semibold{font-weight:600}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity, 1))}.text-black{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94 / var(--tw-text-opacity, 1))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.shadow-xl{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.backdrop-blur{--tw-backdrop-blur:blur(8px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.hover\:-translate-y-1:hover{--tw-translate-y:-0.25rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-200:hover{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-300:hover{--tw-bg-opacity:1;background-color:rgb(209 213 219 / var(--tw-bg-opacity, 1))}.hover\:shadow-xl:hover{--tw-shadow:0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-yellow-400:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(250 204 21 / var(--tw-ring-opacity, 1))}.dark\:border-gray-700:is(.dark *){--tw-border-opacity:1;border-color:rgb(55 65 81 / var(--tw-border-opacity, 1))}.dark\:border-gray-800:is(.dark *){--tw-border-opacity:1;border-color:rgb(31 41 55 / var(--tw-border-opacity, 1))}.dark\:bg-gray-950:is(.dark *){--tw-bg-opacity:1;background-color:rgb(3 7 18 / var(--tw-bg-opacity, 1))}.dark\:bg-gray-800:is(.dark *){--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.dark\:bg-gray-900:is(.dark *){--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity, 1))}.dark\:bg-gray-900\/70:is(.dark *){background-color:rgb(17 24 39 / 0.7)}.dark\:text-gray-200:is(.dark *){--tw-text-opacity:1;color:rgb(229 231 235 / var(--tw-text-opacity, 1))}.dark\:text-gray-300:is(.dark *){--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.dark\:text-gray-400:is(.dark *){--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.dark\:text-white:is(.dark *){--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.dark\:hover\:bg-gray-700:hover:is(.dark *){--tw-bg-opacity:1;background-color:rgb(55 65 81 / var(--tw-bg-opacity, 1))}.dark\:hover\:bg-gray-800:hover:is(.dark *){--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}@media (min-width: 640px){.sm\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}}@media (min-width: 768px){.md\:flex{display:flex}.md\:hidden{display:none}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}}</style><script bis_use="true" type="text/javascript" charset="utf-8" data-bis-config="[&quot;facebook.com/&quot;,&quot;twitter.com/&quot;,&quot;youtube-nocookie.com/embed/&quot;,&quot;//vk.com/&quot;,&quot;//www.vk.com/&quot;,&quot;linkedin.com/&quot;,&quot;//www.linkedin.com/&quot;,&quot;//instagram.com/&quot;,&quot;//www.instagram.com/&quot;,&quot;//www.google.com/recaptcha/api2/&quot;,&quot;//hangouts.google.com/webchat/&quot;,&quot;//www.google.com/calendar/&quot;,&quot;//www.google.com/maps/embed&quot;,&quot;spotify.com/&quot;,&quot;soundcloud.com/&quot;,&quot;//player.vimeo.com/&quot;,&quot;//disqus.com/&quot;,&quot;//tgwidget.com/&quot;,&quot;//js.driftt.com/&quot;,&quot;friends2follow.com&quot;,&quot;/widget&quot;,&quot;login&quot;,&quot;//video.bigmir.net/&quot;,&quot;blogger.com&quot;,&quot;//smartlock.google.com/&quot;,&quot;//keep.google.com/&quot;,&quot;/web.tolstoycomments.com/&quot;,&quot;moz-extension://&quot;,&quot;chrome-extension://&quot;,&quot;/auth/&quot;,&quot;//analytics.google.com/&quot;,&quot;adclarity.com&quot;,&quot;paddle.com/checkout&quot;,&quot;hcaptcha.com&quot;,&quot;recaptcha.net&quot;,&quot;2captcha.com&quot;,&quot;accounts.google.com&quot;,&quot;www.google.com/shopping/customerreviews&quot;,&quot;buy.tinypass.com&quot;,&quot;gstatic.com&quot;,&quot;secureir.ebaystatic.com&quot;,&quot;docs.google.com&quot;,&quot;contacts.google.com&quot;,&quot;github.com&quot;,&quot;mail.google.com&quot;,&quot;chat.google.com&quot;,&quot;audio.xpleer.com&quot;,&quot;keepa.com&quot;,&quot;static.xx.fbcdn.net&quot;,&quot;sas.selleramp.com&quot;,&quot;1plus1.video&quot;,&quot;console.googletagservices.com&quot;,&quot;//lnkd.demdex.net/&quot;,&quot;//radar.cedexis.com/&quot;,&quot;//li.protechts.net/&quot;,&quot;challenges.cloudflare.com/&quot;,&quot;ogs.google.com&quot;]" src="chrome-extension://eppiocemhmnlbhjplcgkofciiegomcon/executors/traffic.js"></script></head>
+
+<body class="min-h-screen bg-gray-100 text-gray-900 dark:bg-gray-950 dark:text-gray-200" __processed_221b2ad9-b96d-4b50-ac70-f9533b855673__="true" bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWllZ29tY29uIiwiYWRibG9ja2VyU3RhdHVzIjp7IkRJU1BMQVkiOiJkaXNhYmxlZCIsIkZBQ0VCT09LIjoiZGlzYWJsZWQiLCJUV0lUVEVSIjoiZGlzYWJsZWQiLCJSRURESVQiOiJkaXNhYmxlZCIsIlBJTlRFUkVTVCI6ImRpc2FibGVkIiwiSU5TVEFHUkFNIjoiZGlzYWJsZWQiLCJUSUtUT0siOiJkaXNhYmxlZCIsIkxJTktFRElOIjoiZGlzYWJsZWQiLCJDT05GSUciOiJkaXNhYmxlZCJ9LCJ2ZXJzaW9uIjoiMi4wLjM1Iiwic2NvcmUiOjIwMDM1fV0=">
+
+<!-- ================= NAVBAR ================= -->
+<nav class="sticky top-0 z-50 backdrop-blur border-b
+            bg-white/80 border-gray-200
+            dark:bg-gray-900/70 dark:border-gray-800">
+
+    <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between" bis_skin_checked="1">
+
+        <!-- Logo -->
+        <div class="text-2xl font-extrabold
+            bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+            text-transparent bg-clip-text" bis_skin_checked="1">
+            NurliHost
+        </div>
+
+        <!-- Desktop menu -->
+        <div class="hidden md:flex items-center gap-4" bis_skin_checked="1">
+            <a href="https://nurlihost.uz/dash/" class="px-4 py-2 rounded-lg font-semibold hover:bg-gray-200 dark:hover:bg-gray-800">Asosiy</a>
+            <a href="https://nurlihost.uz/yangi-server/" class="px-4 py-2 rounded-lg font-semibold hover:bg-gray-200 dark:hover:bg-gray-800">Yangi server</a>
+            <a href="https://nurlihost.uz/myserver/" class="px-4 py-2 rounded-lg font-semibold hover:bg-gray-200 dark:hover:bg-gray-800">Serverlarim</a>
+            <a href="https://nurlihost.uz/tiket/" class="px-4 py-2 rounded-lg font-semibold hover:bg-gray-200 dark:hover:bg-gray-800">Tiket</a>
+        </div>
+
+        <!-- Right side -->
+        <div class="flex items-center gap-3" bis_skin_checked="1">
+
+            <!-- Theme toggle -->
+            <button id="theme-toggle" class="w-10 h-10 rounded-lg bg-gray-200 hover:bg-gray-300 dark:bg-gray-800 dark:hover:bg-gray-700 flex items-center justify-center text-lg">🌙</button>
+
+            <!-- User dropdown -->
+            <div class="relative" bis_skin_checked="1">
+                <button id="userBtn" class="flex items-center gap-2 px-4 py-2 rounded-lg
+                           bg-gray-200 dark:bg-gray-800
+                           hover:bg-gray-300 dark:hover:bg-gray-700">
+                    <span class="font-semibold">echoranger0114</span>
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+
+                <div id="userMenu" class="hidden absolute right-0 mt-2 w-56 rounded-xl shadow-xl
+                            bg-white dark:bg-gray-900 border dark:border-gray-800 overflow-hidden" bis_skin_checked="1">
+
+                    <!-- User info -->
+                    <div class="px-4 py-3 border-b dark:border-gray-800" bis_skin_checked="1">
+                        <p class="font-semibold">echoranger0114</p>
+                        <p class="text-sm text-gray-500 dark:text-gray-400">
+                            Balans: <span class="font-bold text-green-500">0 so‘m</span>
+                        </p>
+                    </div>
+                    <a href="https://nurlihost.uz/user/profile/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800">⚙️ Profile</a>
+                    <a href="https://nurlihost.uz/user/profile/change-password/" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-800">🔑 Parolni o‘zgartirish</a>
+
+                    <form method="post" action="https://nurlihost.uz/user/logout/">
+                        <input type="hidden" name="csrfmiddlewaretoken" value="NSU9DNhaQpLMffV2zNKHJjcd3i2MWX550s8uPjKEPK3UgIVJeY8Ey7wfXAZmehXk">
+                        <button class="block w-full text-left px-4 py-2 text-red-500 hover:bg-gray-100 dark:hover:bg-gray-800">🚪 Chiqish</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Mobile menu button -->
+            <button id="menuBtn" class="md:hidden text-2xl">☰</button>
+
+        </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="hidden md:hidden px-4 pb-4 space-y-2" bis_skin_checked="1">
+        <a href="https://nurlihost.uz/dash/" class="block px-4 py-2 rounded-lg font-semibold bg-gray-200 dark:bg-gray-800">Asosiy</a>
+        <a href="https://nurlihost.uz/yangi-server/" class="block px-4 py-2 rounded-lg font-semibold bg-gray-200 dark:bg-gray-800">Yangi server</a>
+        <a href="https://nurlihost.uz/myserver/" class="block px-4 py-2 rounded-lg font-semibold bg-gray-200 dark:bg-gray-800">Serverlarim</a>
+        <a href="https://nurlihost.uz/tiket/" class="block px-4 py-2 rounded-lg font-semibold bg-gray-200 dark:bg-gray-800">Tiket</a>
+    </div>
+</nav>
+
+<!-- ================= CONTENT ================= -->
+<main class="max-w-7xl mx-auto px-6 py-10">
+    
+<style>
+.game-card {
+  position: relative;
+  height: 260px;
+  border-radius: 1.25rem;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #1f2937;
+  transition: all .3s ease;
+}
+.game-card:hover {
+  transform: translateY(-6px);
+  border-color: #facc15;
+}
+.game-card.active {
+  border-color: #facc15;
+  box-shadow: 0 0 0 2px rgba(250,204,21,.6);
+}
+.game-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.game-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,.85),
+    rgba(0,0,0,.25)
+  );
+}
+</style>
+<!-- ===== HEADER ===== -->
+<div class="mb-12" bis_skin_checked="1">
+    <h1 class="text-3xl md:text-4xl font-extrabold
+               text-gray-900 dark:text-white mb-2">
+        🚀 Yangi server yaratish
+    </h1>
+    <p class="text-gray-600 dark:text-gray-400">
+        O‘yin yoki xizmat turini tanlang va tarifni sotib oling
+    </p>
+</div>
+
+<!-- ===== GAME CATEGORIES ===== -->
+<section class="mb-20">
+ 
+
+  <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-8" bis_skin_checked="1">
+
+    
+    <div onclick="showCategory(&#39;1&#39;, this)" class="game-card" bis_skin_checked="1">
+
+      <img src="./NurliMusr Yangi server_files/mine2.jpg" alt="Minecraft">
+
+      <div class="game-overlay" bis_skin_checked="1"></div>
+
+      
+      <div class="absolute top-4 left-4
+                  bg-yellow-400 text-black text-xs font-bold
+                  px-3 py-1 rounded-full" bis_skin_checked="1">
+        Mashur
+      </div>
+      
+
+      <div class="absolute bottom-8 left-6
+                  text-2xl font-extrabold text-white" bis_skin_checked="1">
+        Minecraft
+      </div>
+
+      <div class="absolute bottom-4 left-6
+                  text-sm text-gray-300" bis_skin_checked="1">
+        Premium Game Hosting
+      </div>
+
+    </div>
+    
+    <div onclick="showCategory(&#39;2&#39;, this)" class="game-card" bis_skin_checked="1">
+
+      <img src="./NurliMusr Yangi server_files/host.jpg" alt="Counter Strike 1.6">
+
+      <div class="game-overlay" bis_skin_checked="1"></div>
+
+      
+
+      <div class="absolute bottom-8 left-6
+                  text-2xl font-extrabold text-white" bis_skin_checked="1">
+        Counter Strike 1.6
+      </div>
+
+      <div class="absolute bottom-4 left-6
+                  text-sm text-gray-300" bis_skin_checked="1">
+        Premium Game Hosting
+      </div>
+
+    </div>
+    
+    <div onclick="showCategory(&#39;3&#39;, this)" class="game-card" bis_skin_checked="1">
+
+      <img src="./NurliMusr Yangi server_files/samp.jpeg" alt="GTA:SAMP">
+
+      <div class="game-overlay" bis_skin_checked="1"></div>
+
+      
+
+      <div class="absolute bottom-8 left-6
+                  text-2xl font-extrabold text-white" bis_skin_checked="1">
+        GTA:SAMP
+      </div>
+
+      <div class="absolute bottom-4 left-6
+                  text-sm text-gray-300" bis_skin_checked="1">
+        Premium Game Hosting
+      </div>
+
+    </div>
+    
+    <div onclick="showCategory(&#39;4&#39;, this)" class="game-card" bis_skin_checked="1">
+
+      <img src="./NurliMusr Yangi server_files/360_F_300884141_2K5r5VmgJhpm4ltGcCmbzVGA4IF6y4Oq_O59icjR.jpg" alt="Web Hosting">
+
+      <div class="game-overlay" bis_skin_checked="1"></div>
+
+      
+
+      <div class="absolute bottom-8 left-6
+                  text-2xl font-extrabold text-white" bis_skin_checked="1">
+        Web Hosting
+      </div>
+
+      <div class="absolute bottom-4 left-6
+                  text-sm text-gray-300" bis_skin_checked="1">
+        Premium Game Hosting
+      </div>
+
+    </div>
+    
+
+  </div>
+</section>
+
+<!-- ===== TARIFFS ===== -->
+
+<div id="category-1" class="hidden mb-20" bis_skin_checked="1">
+
+    <h2 class="text-2xl font-extrabold mb-8
+               text-gray-900 dark:text-white">
+        Minecraft tariflari
+    </h2>
+
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8" bis_skin_checked="1">
+    
+    <div class="rounded-3xl p-6 border transition
+                bg-white border-gray-200 hover:-translate-y-1 hover:shadow-xl
+                dark:bg-gray-900 dark:border-gray-800" bis_skin_checked="1">
+
+        <h3 class="text-xl font-extrabold mb-2
+                   text-gray-900 dark:text-white">
+            PROXY-1
+        </h3>
+
+        <ul class="text-sm mb-5 space-y-1
+                   text-gray-600 dark:text-gray-300">
+            <li>💾 RAM: 1,0 GB</li>
+            <li>⚙ CPU: 50%</li>
+            <li>📦 Disk: 5,0 GB</li>
+        </ul>
+
+        <!-- PRICE -->
+        <div id="price-5" data-base-price="10000" class="text-3xl font-extrabold mb-4
+                    bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                    text-transparent bg-clip-text" bis_skin_checked="1">
+            <span class="price-value">10000</span> so‘m
+        </div>
+
+        <form method="post" class="space-y-3">
+            <input type="hidden" name="csrfmiddlewaretoken" value="NSU9DNhaQpLMffV2zNKHJjcd3i2MWX550s8uPjKEPK3UgIVJeY8Ey7wfXAZmehXk">
+            <input type="hidden" name="tarif_id" value="5">
+
+            <select name="duration_type" onchange="updatePrice(this, &#39;5&#39;)" class="w-full rounded-xl px-4 py-2
+                           bg-gray-100 border border-gray-300
+                           dark:bg-gray-800 dark:border-gray-700
+                           focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                <option value="30d">30 kun</option>
+                <option value="2m">2 oy</option>
+                <option value="3m">3 oy</option>
+                <option value="6m">6 oy</option>
+                <option value="1y">1 yil</option>
+            </select>
+
+            <button class="w-full py-3 rounded-xl font-bold text-gray-900
+                           bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                           hover:scale-105 transition">
+                Sotib olish
+            </button>
+        </form>
+    </div>
+    
+    <div class="rounded-3xl p-6 border transition
+                bg-white border-gray-200 hover:-translate-y-1 hover:shadow-xl
+                dark:bg-gray-900 dark:border-gray-800" bis_skin_checked="1">
+
+        <h3 class="text-xl font-extrabold mb-2
+                   text-gray-900 dark:text-white">
+            PROXY-2
+        </h3>
+
+        <ul class="text-sm mb-5 space-y-1
+                   text-gray-600 dark:text-gray-300">
+            <li>💾 RAM: 2,0 GB</li>
+            <li>⚙ CPU: 100%</li>
+            <li>📦 Disk: 10,0 GB</li>
+        </ul>
+
+        <!-- PRICE -->
+        <div id="price-6" data-base-price="12000" class="text-3xl font-extrabold mb-4
+                    bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                    text-transparent bg-clip-text" bis_skin_checked="1">
+            <span class="price-value">12000</span> so‘m
+        </div>
+
+        <form method="post" class="space-y-3">
+            <input type="hidden" name="csrfmiddlewaretoken" value="NSU9DNhaQpLMffV2zNKHJjcd3i2MWX550s8uPjKEPK3UgIVJeY8Ey7wfXAZmehXk">
+            <input type="hidden" name="tarif_id" value="6">
+
+            <select name="duration_type" onchange="updatePrice(this, &#39;6&#39;)" class="w-full rounded-xl px-4 py-2
+                           bg-gray-100 border border-gray-300
+                           dark:bg-gray-800 dark:border-gray-700
+                           focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                <option value="30d">30 kun</option>
+                <option value="2m">2 oy</option>
+                <option value="3m">3 oy</option>
+                <option value="6m">6 oy</option>
+                <option value="1y">1 yil</option>
+            </select>
+
+            <button class="w-full py-3 rounded-xl font-bold text-gray-900
+                           bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                           hover:scale-105 transition">
+                Sotib olish
+            </button>
+        </form>
+    </div>
+    
+    <div class="rounded-3xl p-6 border transition
+                bg-white border-gray-200 hover:-translate-y-1 hover:shadow-xl
+                dark:bg-gray-900 dark:border-gray-800" bis_skin_checked="1">
+
+        <h3 class="text-xl font-extrabold mb-2
+                   text-gray-900 dark:text-white">
+            🚀START-1
+        </h3>
+
+        <ul class="text-sm mb-5 space-y-1
+                   text-gray-600 dark:text-gray-300">
+            <li>💾 RAM: 2,0 GB</li>
+            <li>⚙ CPU: 100%</li>
+            <li>📦 Disk: 20,0 GB</li>
+        </ul>
+
+        <!-- PRICE -->
+        <div id="price-7" data-base-price="25000" class="text-3xl font-extrabold mb-4
+                    bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                    text-transparent bg-clip-text" bis_skin_checked="1">
+            <span class="price-value">25000</span> so‘m
+        </div>
+
+        <form method="post" class="space-y-3">
+            <input type="hidden" name="csrfmiddlewaretoken" value="NSU9DNhaQpLMffV2zNKHJjcd3i2MWX550s8uPjKEPK3UgIVJeY8Ey7wfXAZmehXk">
+            <input type="hidden" name="tarif_id" value="7">
+
+            <select name="duration_type" onchange="updatePrice(this, &#39;7&#39;)" class="w-full rounded-xl px-4 py-2
+                           bg-gray-100 border border-gray-300
+                           dark:bg-gray-800 dark:border-gray-700
+                           focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                <option value="30d">30 kun</option>
+                <option value="2m">2 oy</option>
+                <option value="3m">3 oy</option>
+                <option value="6m">6 oy</option>
+                <option value="1y">1 yil</option>
+            </select>
+
+            <button class="w-full py-3 rounded-xl font-bold text-gray-900
+                           bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                           hover:scale-105 transition">
+                Sotib olish
+            </button>
+        </form>
+    </div>
+    
+    <div class="rounded-3xl p-6 border transition
+                bg-white border-gray-200 hover:-translate-y-1 hover:shadow-xl
+                dark:bg-gray-900 dark:border-gray-800" bis_skin_checked="1">
+
+        <h3 class="text-xl font-extrabold mb-2
+                   text-gray-900 dark:text-white">
+            🚀START-2
+        </h3>
+
+        <ul class="text-sm mb-5 space-y-1
+                   text-gray-600 dark:text-gray-300">
+            <li>💾 RAM: 4,0 GB</li>
+            <li>⚙ CPU: 150%</li>
+            <li>📦 Disk: 20,0 GB</li>
+        </ul>
+
+        <!-- PRICE -->
+        <div id="price-8" data-base-price="30000" class="text-3xl font-extrabold mb-4
+                    bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                    text-transparent bg-clip-text" bis_skin_checked="1">
+            <span class="price-value">30000</span> so‘m
+        </div>
+
+        <form method="post" class="space-y-3">
+            <input type="hidden" name="csrfmiddlewaretoken" value="NSU9DNhaQpLMffV2zNKHJjcd3i2MWX550s8uPjKEPK3UgIVJeY8Ey7wfXAZmehXk">
+            <input type="hidden" name="tarif_id" value="8">
+
+            <select name="duration_type" onchange="updatePrice(this, &#39;8&#39;)" class="w-full rounded-xl px-4 py-2
+                           bg-gray-100 border border-gray-300
+                           dark:bg-gray-800 dark:border-gray-700
+                           focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                <option value="30d">30 kun</option>
+                <option value="2m">2 oy</option>
+                <option value="3m">3 oy</option>
+                <option value="6m">6 oy</option>
+                <option value="1y">1 yil</option>
+            </select>
+
+            <button class="w-full py-3 rounded-xl font-bold text-gray-900
+                           bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                           hover:scale-105 transition">
+                Sotib olish
+            </button>
+        </form>
+    </div>
+    
+    <div class="rounded-3xl p-6 border transition
+                bg-white border-gray-200 hover:-translate-y-1 hover:shadow-xl
+                dark:bg-gray-900 dark:border-gray-800" bis_skin_checked="1">
+
+        <h3 class="text-xl font-extrabold mb-2
+                   text-gray-900 dark:text-white">
+            🚀STANDART
+        </h3>
+
+        <ul class="text-sm mb-5 space-y-1
+                   text-gray-600 dark:text-gray-300">
+            <li>💾 RAM: 8,0 GB</li>
+            <li>⚙ CPU: 200%</li>
+            <li>📦 Disk: 40,0 GB</li>
+        </ul>
+
+        <!-- PRICE -->
+        <div id="price-9" data-base-price="64000" class="text-3xl font-extrabold mb-4
+                    bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                    text-transparent bg-clip-text" bis_skin_checked="1">
+            <span class="price-value">64000</span> so‘m
+        </div>
+
+        <form method="post" class="space-y-3">
+            <input type="hidden" name="csrfmiddlewaretoken" value="NSU9DNhaQpLMffV2zNKHJjcd3i2MWX550s8uPjKEPK3UgIVJeY8Ey7wfXAZmehXk">
+            <input type="hidden" name="tarif_id" value="9">
+
+            <select name="duration_type" onchange="updatePrice(this, &#39;9&#39;)" class="w-full rounded-xl px-4 py-2
+                           bg-gray-100 border border-gray-300
+                           dark:bg-gray-800 dark:border-gray-700
+                           focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                <option value="30d">30 kun</option>
+                <option value="2m">2 oy</option>
+                <option value="3m">3 oy</option>
+                <option value="6m">6 oy</option>
+                <option value="1y">1 yil</option>
+            </select>
+
+            <button class="w-full py-3 rounded-xl font-bold text-gray-900
+                           bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                           hover:scale-105 transition">
+                Sotib olish
+            </button>
+        </form>
+    </div>
+    
+    <div class="rounded-3xl p-6 border transition
+                bg-white border-gray-200 hover:-translate-y-1 hover:shadow-xl
+                dark:bg-gray-900 dark:border-gray-800" bis_skin_checked="1">
+
+        <h3 class="text-xl font-extrabold mb-2
+                   text-gray-900 dark:text-white">
+            🚀STANDART-2
+        </h3>
+
+        <ul class="text-sm mb-5 space-y-1
+                   text-gray-600 dark:text-gray-300">
+            <li>💾 RAM: 10,0 GB</li>
+            <li>⚙ CPU: 200%</li>
+            <li>📦 Disk: 40,0 GB</li>
+        </ul>
+
+        <!-- PRICE -->
+        <div id="price-10" data-base-price="88000" class="text-3xl font-extrabold mb-4
+                    bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                    text-transparent bg-clip-text" bis_skin_checked="1">
+            <span class="price-value">88000</span> so‘m
+        </div>
+
+        <form method="post" class="space-y-3">
+            <input type="hidden" name="csrfmiddlewaretoken" value="NSU9DNhaQpLMffV2zNKHJjcd3i2MWX550s8uPjKEPK3UgIVJeY8Ey7wfXAZmehXk">
+            <input type="hidden" name="tarif_id" value="10">
+
+            <select name="duration_type" onchange="updatePrice(this, &#39;10&#39;)" class="w-full rounded-xl px-4 py-2
+                           bg-gray-100 border border-gray-300
+                           dark:bg-gray-800 dark:border-gray-700
+                           focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                <option value="30d">30 kun</option>
+                <option value="2m">2 oy</option>
+                <option value="3m">3 oy</option>
+                <option value="6m">6 oy</option>
+                <option value="1y">1 yil</option>
+            </select>
+
+            <button class="w-full py-3 rounded-xl font-bold text-gray-900
+                           bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                           hover:scale-105 transition">
+                Sotib olish
+            </button>
+        </form>
+    </div>
+    
+    <div class="rounded-3xl p-6 border transition
+                bg-white border-gray-200 hover:-translate-y-1 hover:shadow-xl
+                dark:bg-gray-900 dark:border-gray-800" bis_skin_checked="1">
+
+        <h3 class="text-xl font-extrabold mb-2
+                   text-gray-900 dark:text-white">
+            🚀TEJAMKOR
+        </h3>
+
+        <ul class="text-sm mb-5 space-y-1
+                   text-gray-600 dark:text-gray-300">
+            <li>💾 RAM: 12,0 GB</li>
+            <li>⚙ CPU: 200%</li>
+            <li>📦 Disk: 50,0 GB</li>
+        </ul>
+
+        <!-- PRICE -->
+        <div id="price-11" data-base-price="94000" class="text-3xl font-extrabold mb-4
+                    bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                    text-transparent bg-clip-text" bis_skin_checked="1">
+            <span class="price-value">94000</span> so‘m
+        </div>
+
+        <form method="post" class="space-y-3">
+            <input type="hidden" name="csrfmiddlewaretoken" value="NSU9DNhaQpLMffV2zNKHJjcd3i2MWX550s8uPjKEPK3UgIVJeY8Ey7wfXAZmehXk">
+            <input type="hidden" name="tarif_id" value="11">
+
+            <select name="duration_type" onchange="updatePrice(this, &#39;11&#39;)" class="w-full rounded-xl px-4 py-2
+                           bg-gray-100 border border-gray-300
+                           dark:bg-gray-800 dark:border-gray-700
+                           focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                <option value="30d">30 kun</option>
+                <option value="2m">2 oy</option>
+                <option value="3m">3 oy</option>
+                <option value="6m">6 oy</option>
+                <option value="1y">1 yil</option>
+            </select>
+
+            <button class="w-full py-3 rounded-xl font-bold text-gray-900
+                           bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                           hover:scale-105 transition">
+                Sotib olish
+            </button>
+        </form>
+    </div>
+    
+    <div class="rounded-3xl p-6 border transition
+                bg-white border-gray-200 hover:-translate-y-1 hover:shadow-xl
+                dark:bg-gray-900 dark:border-gray-800" bis_skin_checked="1">
+
+        <h3 class="text-xl font-extrabold mb-2
+                   text-gray-900 dark:text-white">
+            🚀TURBO
+        </h3>
+
+        <ul class="text-sm mb-5 space-y-1
+                   text-gray-600 dark:text-gray-300">
+            <li>💾 RAM: 18,0 GB</li>
+            <li>⚙ CPU: 300%</li>
+            <li>📦 Disk: 65,0 GB</li>
+        </ul>
+
+        <!-- PRICE -->
+        <div id="price-12" data-base-price="140000" class="text-3xl font-extrabold mb-4
+                    bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                    text-transparent bg-clip-text" bis_skin_checked="1">
+            <span class="price-value">140000</span> so‘m
+        </div>
+
+        <form method="post" class="space-y-3">
+            <input type="hidden" name="csrfmiddlewaretoken" value="NSU9DNhaQpLMffV2zNKHJjcd3i2MWX550s8uPjKEPK3UgIVJeY8Ey7wfXAZmehXk">
+            <input type="hidden" name="tarif_id" value="12">
+
+            <select name="duration_type" onchange="updatePrice(this, &#39;12&#39;)" class="w-full rounded-xl px-4 py-2
+                           bg-gray-100 border border-gray-300
+                           dark:bg-gray-800 dark:border-gray-700
+                           focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                <option value="30d">30 kun</option>
+                <option value="2m">2 oy</option>
+                <option value="3m">3 oy</option>
+                <option value="6m">6 oy</option>
+                <option value="1y">1 yil</option>
+            </select>
+
+            <button class="w-full py-3 rounded-xl font-bold text-gray-900
+                           bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                           hover:scale-105 transition">
+                Sotib olish
+            </button>
+        </form>
+    </div>
+    
+    <div class="rounded-3xl p-6 border transition
+                bg-white border-gray-200 hover:-translate-y-1 hover:shadow-xl
+                dark:bg-gray-900 dark:border-gray-800" bis_skin_checked="1">
+
+        <h3 class="text-xl font-extrabold mb-2
+                   text-gray-900 dark:text-white">
+            🚀GOLD
+        </h3>
+
+        <ul class="text-sm mb-5 space-y-1
+                   text-gray-600 dark:text-gray-300">
+            <li>💾 RAM: 24,0 GB</li>
+            <li>⚙ CPU: 400%</li>
+            <li>📦 Disk: 80,0 GB</li>
+        </ul>
+
+        <!-- PRICE -->
+        <div id="price-13" data-base-price="178000" class="text-3xl font-extrabold mb-4
+                    bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                    text-transparent bg-clip-text" bis_skin_checked="1">
+            <span class="price-value">178000</span> so‘m
+        </div>
+
+        <form method="post" class="space-y-3">
+            <input type="hidden" name="csrfmiddlewaretoken" value="NSU9DNhaQpLMffV2zNKHJjcd3i2MWX550s8uPjKEPK3UgIVJeY8Ey7wfXAZmehXk">
+            <input type="hidden" name="tarif_id" value="13">
+
+            <select name="duration_type" onchange="updatePrice(this, &#39;13&#39;)" class="w-full rounded-xl px-4 py-2
+                           bg-gray-100 border border-gray-300
+                           dark:bg-gray-800 dark:border-gray-700
+                           focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                <option value="30d">30 kun</option>
+                <option value="2m">2 oy</option>
+                <option value="3m">3 oy</option>
+                <option value="6m">6 oy</option>
+                <option value="1y">1 yil</option>
+            </select>
+
+            <button class="w-full py-3 rounded-xl font-bold text-gray-900
+                           bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                           hover:scale-105 transition">
+                Sotib olish
+            </button>
+        </form>
+    </div>
+    
+    <div class="rounded-3xl p-6 border transition
+                bg-white border-gray-200 hover:-translate-y-1 hover:shadow-xl
+                dark:bg-gray-900 dark:border-gray-800" bis_skin_checked="1">
+
+        <h3 class="text-xl font-extrabold mb-2
+                   text-gray-900 dark:text-white">
+            🔴 youtuber
+        </h3>
+
+        <ul class="text-sm mb-5 space-y-1
+                   text-gray-600 dark:text-gray-300">
+            <li>💾 RAM: 6,0 GB</li>
+            <li>⚙ CPU: 200%</li>
+            <li>📦 Disk: 10,0 GB</li>
+        </ul>
+
+        <!-- PRICE -->
+        <div id="price-17" data-base-price="30000" class="text-3xl font-extrabold mb-4
+                    bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                    text-transparent bg-clip-text" bis_skin_checked="1">
+            <span class="price-value">30000</span> so‘m
+        </div>
+
+        <form method="post" class="space-y-3">
+            <input type="hidden" name="csrfmiddlewaretoken" value="NSU9DNhaQpLMffV2zNKHJjcd3i2MWX550s8uPjKEPK3UgIVJeY8Ey7wfXAZmehXk">
+            <input type="hidden" name="tarif_id" value="17">
+
+            <select name="duration_type" onchange="updatePrice(this, &#39;17&#39;)" class="w-full rounded-xl px-4 py-2
+                           bg-gray-100 border border-gray-300
+                           dark:bg-gray-800 dark:border-gray-700
+                           focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                <option value="30d">30 kun</option>
+                <option value="2m">2 oy</option>
+                <option value="3m">3 oy</option>
+                <option value="6m">6 oy</option>
+                <option value="1y">1 yil</option>
+            </select>
+
+            <button class="w-full py-3 rounded-xl font-bold text-gray-900
+                           bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                           hover:scale-105 transition">
+                Sotib olish
+            </button>
+        </form>
+    </div>
+    
+    </div>
+</div>
+
+<div id="category-2" class="hidden mb-20" bis_skin_checked="1">
+
+    <h2 class="text-2xl font-extrabold mb-8
+               text-gray-900 dark:text-white">
+        Counter Strike 1.6 tariflari
+    </h2>
+
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8" bis_skin_checked="1">
+    
+    <div class="rounded-3xl p-6 border transition
+                bg-white border-gray-200 hover:-translate-y-1 hover:shadow-xl
+                dark:bg-gray-900 dark:border-gray-800" bis_skin_checked="1">
+
+        <h3 class="text-xl font-extrabold mb-2
+                   text-gray-900 dark:text-white">
+            ⚔️Strike mini
+        </h3>
+
+        <ul class="text-sm mb-5 space-y-1
+                   text-gray-600 dark:text-gray-300">
+            <li>💾 RAM: 0,49 GB</li>
+            <li>⚙ CPU: 50%</li>
+            <li>📦 Disk: 5,0 GB</li>
+        </ul>
+
+        <!-- PRICE -->
+        <div id="price-15" data-base-price="10000" class="text-3xl font-extrabold mb-4
+                    bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                    text-transparent bg-clip-text" bis_skin_checked="1">
+            <span class="price-value">10000</span> so‘m
+        </div>
+
+        <form method="post" class="space-y-3">
+            <input type="hidden" name="csrfmiddlewaretoken" value="NSU9DNhaQpLMffV2zNKHJjcd3i2MWX550s8uPjKEPK3UgIVJeY8Ey7wfXAZmehXk">
+            <input type="hidden" name="tarif_id" value="15">
+
+            <select name="duration_type" onchange="updatePrice(this, &#39;15&#39;)" class="w-full rounded-xl px-4 py-2
+                           bg-gray-100 border border-gray-300
+                           dark:bg-gray-800 dark:border-gray-700
+                           focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                <option value="30d">30 kun</option>
+                <option value="2m">2 oy</option>
+                <option value="3m">3 oy</option>
+                <option value="6m">6 oy</option>
+                <option value="1y">1 yil</option>
+            </select>
+
+            <button class="w-full py-3 rounded-xl font-bold text-gray-900
+                           bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                           hover:scale-105 transition">
+                Sotib olish
+            </button>
+        </form>
+    </div>
+    
+    <div class="rounded-3xl p-6 border transition
+                bg-white border-gray-200 hover:-translate-y-1 hover:shadow-xl
+                dark:bg-gray-900 dark:border-gray-800" bis_skin_checked="1">
+
+        <h3 class="text-xl font-extrabold mb-2
+                   text-gray-900 dark:text-white">
+            Strike start
+        </h3>
+
+        <ul class="text-sm mb-5 space-y-1
+                   text-gray-600 dark:text-gray-300">
+            <li>💾 RAM: 1,0 GB</li>
+            <li>⚙ CPU: 100%</li>
+            <li>📦 Disk: 15,0 GB</li>
+        </ul>
+
+        <!-- PRICE -->
+        <div id="price-16" data-base-price="25000" class="text-3xl font-extrabold mb-4
+                    bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                    text-transparent bg-clip-text" bis_skin_checked="1">
+            <span class="price-value">25000</span> so‘m
+        </div>
+
+        <form method="post" class="space-y-3">
+            <input type="hidden" name="csrfmiddlewaretoken" value="NSU9DNhaQpLMffV2zNKHJjcd3i2MWX550s8uPjKEPK3UgIVJeY8Ey7wfXAZmehXk">
+            <input type="hidden" name="tarif_id" value="16">
+
+            <select name="duration_type" onchange="updatePrice(this, &#39;16&#39;)" class="w-full rounded-xl px-4 py-2
+                           bg-gray-100 border border-gray-300
+                           dark:bg-gray-800 dark:border-gray-700
+                           focus:outline-none focus:ring-2 focus:ring-yellow-400">
+                <option value="30d">30 kun</option>
+                <option value="2m">2 oy</option>
+                <option value="3m">3 oy</option>
+                <option value="6m">6 oy</option>
+                <option value="1y">1 yil</option>
+            </select>
+
+            <button class="w-full py-3 rounded-xl font-bold text-gray-900
+                           bg-gradient-to-r from-brand-from via-brand-via to-brand-to
+                           hover:scale-105 transition">
+                Sotib olish
+            </button>
+        </form>
+    </div>
+    
+    </div>
+</div>
+
+<div id="category-3" class="hidden mb-20" bis_skin_checked="1">
+
+    <h2 class="text-2xl font-extrabold mb-8
+               text-gray-900 dark:text-white">
+        GTA:SAMP tariflari
+    </h2>
+
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8" bis_skin_checked="1">
+    
+    </div>
+</div>
+
+<div id="category-4" class="hidden mb-20" bis_skin_checked="1">
+
+    <h2 class="text-2xl font-extrabold mb-8
+               text-gray-900 dark:text-white">
+        Web Hosting tariflari
+    </h2>
+
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8" bis_skin_checked="1">
+    
+    </div>
+</div>
+
+
+<!-- ===== JS ===== -->
+<script>
+const multipliers = {
+    "30d": 1,
+    "2m": 2,
+    "3m": 3,
+    "6m": 6,
+    "1y": 12,
+};
+
+function showCategory(id, btn) {
+    document.querySelectorAll('[id^="category-"]').forEach(el => {
+        el.classList.add('hidden');
+    });
+    document.getElementById('category-' + id).classList.remove('hidden');
+
+    document.querySelectorAll('.category-btn').forEach(b => {
+        b.classList.remove('ring-2','ring-yellow-400');
+    });
+    btn.classList.add('ring-2','ring-yellow-400');
+}
+
+function updatePrice(select, tarifId) {
+    const box = document.getElementById('price-' + tarifId);
+    const base = parseInt(box.dataset.basePrice);
+    box.querySelector('.price-value').innerText =
+        base * (multipliers[select.value] || 1);
+}
+</script>
+<script>
+function showCategory(id, el) {
+
+  // hide all tariff blocks
+  document.querySelectorAll('[id^="category-"]').forEach(b => {
+    b.classList.add('hidden');
+  });
+
+  // show selected
+  const block = document.getElementById('category-' + id);
+  block.classList.remove('hidden');
+  block.scrollIntoView({ behavior: 'smooth' });
+
+  // active card
+  document.querySelectorAll('.game-card').forEach(c => {
+    c.classList.remove('active');
+  });
+  el.classList.add('active');
+}
+</script>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="border-t py-8 text-center text-sm border-gray-200 text-gray-500 dark:border-gray-800 dark:text-gray-400">
+    © 2025 NurliHost — TAS-IX Game Hosting
+</footer>
+
+<!-- ================= SCRIPTS ================= -->
+<script>
+(function () {
+    const html = document.documentElement;
+    const themeBtn = document.getElementById('theme-toggle');
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const userBtn = document.getElementById('userBtn');
+    const userMenu = document.getElementById('userMenu');
+
+    // Theme
+    function setTheme(t) {
+        html.classList.toggle('dark', t === 'dark');
+        themeBtn.textContent = t === 'dark' ? '🌙' : '☀️';
+        localStorage.theme = t;
+    }
+    setTheme(localStorage.theme || 'dark');
+    themeBtn.onclick = () => setTheme(html.classList.contains('dark') ? 'light' : 'dark');
+
+    // Mobile menu
+    menuBtn.onclick = () => mobileMenu.classList.toggle('hidden');
+
+    // User dropdown
+    userBtn.onclick = () => userMenu.classList.toggle('hidden');
+
+    // Close dropdown when clicking outside
+    window.addEventListener('click', (e) => {
+        if (!userBtn.contains(e.target) && !userMenu.contains(e.target)) {
+            userMenu.classList.add('hidden');
+        }
+        if (!menuBtn.contains(e.target) && !mobileMenu.contains(e.target)) {
+            mobileMenu.classList.add('hidden');
+        }
+    });
+})();
+</script>
+
+
+
+</body></html>
